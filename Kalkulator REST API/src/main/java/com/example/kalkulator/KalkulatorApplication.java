@@ -18,7 +18,6 @@ import static java.lang.String.valueOf;
 @SpringBootApplication
 public class KalkulatorApplication {
 
-	Logger logger = LoggerFactory.getLogger(KalkulatorApplication.class);
 
 	public static void main(String[] args) {
 		SpringApplication.run(KalkulatorApplication.class, args);
@@ -26,21 +25,6 @@ public class KalkulatorApplication {
 	}
 
 	//Controller
-	@GetMapping("/{regnestykke}")
-	public String Calculate(@PathVariable String regnestykke) {
-		try {
-			KalkulatorService kalkulatorService = new KalkulatorService();
-			String Answer = valueOf(kalkulatorService.regnUt(regnestykke));
-			if(Answer=="NaN"){
-				throw new Exception("Ikke et tall");
-			}
-			logger.info("Svaret er " + Answer);
-			return Answer;
-		}catch (Exception e){
-			logger.info(e.getMessage());
-		}
-		return "Math Error";
-	}
 
 	//Service
 

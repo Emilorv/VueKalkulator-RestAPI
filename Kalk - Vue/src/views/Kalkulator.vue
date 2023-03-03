@@ -83,7 +83,6 @@ export default {
           try {
             let svar = await api.calculate(this.regnestykke);
             svar = svar.data;
-
             this.display = svar;
             this.logs.push(this.regnestykke + " = " + this.display);
             this.ans = svar;
