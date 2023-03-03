@@ -4,9 +4,10 @@ import com.example.kalkulator.KalkulatorApplication;
 import org.mariuszgromada.math.mxparser.Expression;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 
 import static java.lang.Double.NaN;
-
+@Service
 public class KalkulatorService {
     Logger logger = LoggerFactory.getLogger(KalkulatorApplication.class);
     public Double regnUt(String regnestykke) throws Exception {
