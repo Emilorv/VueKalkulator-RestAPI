@@ -1,9 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Kalkulator from '../views/Kalkulator.vue'
+import Login from '../views/LoginView.vue'
 
 const routes = [
     {
         path:'/',
+        name:'Login',
+        component: Login
+    },
+    {
+        path:'/Kalkulator',
         name:'Kalkulator',
         component: Kalkulator
     },

@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Kalkulator</router-link>
+      <router-link to="/">Login</router-link>
+      <router-link to="/Kalkulator">Kalkulator</router-link>
       <router-link to="/kontaktskjema">Kontakt </router-link>
     </div>
     <router-view />
@@ -11,7 +12,6 @@
 <script></script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -20,6 +20,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
 .container {
   max-width: 500px;
   margin: 30px auto;
@@ -27,6 +28,17 @@ body {
   min-height: 300px;
   border: 1px solid steelblue;
   padding: 30px;
+  border-radius: 5px;
+}
+input{
+  display: block;
+  margin: 10px 10px 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+textarea{
+  padding: 5px;
+  margin: 10px 10px 10px 0;
   border-radius: 5px;
 }
 .btn {

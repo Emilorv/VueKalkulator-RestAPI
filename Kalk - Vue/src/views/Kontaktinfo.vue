@@ -126,7 +126,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 label {
   display: block;
 }
@@ -139,6 +139,7 @@ label {
 #melding {
   width: 100%;
   height: 200px;
+  resize: none;
 }
 #SendBtn {
   text-align: right;
