@@ -22,4 +22,4 @@ mvn spring-boot:run
 #
 Du er nå igang!
 
-Kalkulatoren har flere versjoner. Med Login-in funksjonalitet og Autorisasjon gå til branch ``Arbeidskrav-5-DB`` 
+Dette er den nyeste og oppdaterte kalkulatoren, men den krever tilgang til MySQL Database. For å få kalkulator uten login og autorisering gå til main branch.
