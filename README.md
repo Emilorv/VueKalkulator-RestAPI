@@ -13,7 +13,7 @@ npm run dev
 ```
 
 ## Backend
-Beveg deg til ``cd /Kalkulator REST API/ 
+Beveg deg til ``cd /Kalkulator REST API/ `` 
 
 Kjør følgende kommando:
 ```
