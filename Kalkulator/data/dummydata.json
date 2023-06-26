@@ -1,0 +1,28 @@
+{
+  "connection": {
+    "status": "success"
+  },
+  "login": {
+    "status": "true"
+  },
+  "reviews": [
+    {
+      "name": "",
+      "email": "",
+      "message": "",
+      "id": 0
+    },
+    {
+      "name": "John",
+      "email": "John@Doe.com",
+      "message": "Hallo",
+      "id": 1
+    },
+    {
+      "name": "Emil",
+      "email": "emilols.eo@gmail.com",
+      "message": "Hei",
+      "id": 2
+    }
+  ]
+}
