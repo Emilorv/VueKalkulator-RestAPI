@@ -21,3 +21,5 @@ mvn spring-boot:run
 ```
 #
 Du er nå igang!
+
+Kalkulatoren har flere versjoner. Med Login-in funksjonalitet og Autorisasjon gå til branch DB
